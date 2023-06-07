@@ -1,6 +1,6 @@
 # Bird classification using transfer learning 
 Report final project for CSE 455 Computer Vision at University of Washington.
-### Team members:
+### Team members:
 * Florian Kneip
 * Yanick Schimpf
 
