@@ -9,6 +9,7 @@ Report final project for CSE 455 Computer Vision at University of Washington.
 * Video: 
 
 
+
 ## Problem Statement and Data Set
 We decided to train a classifier that takes pictures of birds as inputs and outputs their class. The class, which initially is only a number can then be translated into the actual name of the respective bird's species. 
 \
@@ -27,7 +28,7 @@ The rough steps of the development of our network were the following:
 * Use transfer learning to extract features and then use a simple network on these features
 * Select a good pretrained network
 * Enhance the network that works on the extracted features of the pretrained network
-* Add some data augmentation
+* Add some data augmentation (only tried clashed with transforms of pretrained weights and hence resulted in poor results)
 
 ## Architecture of final submission
 ### Code structure
@@ -40,7 +41,7 @@ Our final submission is the result of the steps explained in the paragraph befor
 Be aware that in earlier steps we used test/validation splits on the train data in the end we then trained our model on the whole dataset.
 ### Network structure
 
-INSERT IMAGE OF NETWORK
+![network](https://github.com/FloKnp/ComputerVisionFinal/assets/115632782/a08d5911-7a61-4b65-8e10-e33b0621da57)
 \
 As outlined before we started with a very simple network of multiple linear layers with some dropout and activation functions. However, we quickly recognized that even a lot of fine tuning wouldn't really bring some awesome results.
 \
