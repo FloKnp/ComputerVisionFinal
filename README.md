@@ -8,6 +8,7 @@ Report final project for CSE 455 Computer Vision at University of Washington.
 * Code: See jupyter notebook in this repo: https://github.com/FloKnp/ComputerVisionFinal/blob/main/birdclassification.ipynb
 * Video: https://youtu.be/iAuS4XP-v04
 * Slide deck: https://docs.google.com/presentation/d/10-iDpTpoQIhPs98G61RVRzHN92VQ5iAcY9_zAM8vrVk/edit?usp=sharing
+* Code explanation: https://youtu.be/aJz1cyLaCq8
 
 
 
