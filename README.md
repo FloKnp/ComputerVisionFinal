@@ -56,8 +56,8 @@ This network is composed of some linear layers, tanh activation functions, batch
 To actually perform the classification or rather the training for it we selected the adam optimizer, a decaying learning rate scheduler, and the negative log likely loss for multiclass classification.
 
 ## Results & The bigger context & Ideas for further improvement
-INSERT THE ACTUAL RESULTS
-
+We achieved an accuracy between 55% - 60% on the test set.
+\
 What are our results worth in the bigger context? Well, we need to recognize that our performance is not the best. Even if you compare it with our classmates we are off by quite a margin. Still, we believe that the overall structure/idea of the code is not that bad. Maybe some more complex pre-trained network would have offered some better features. We could only find networks that were pretrained on general image datasets. Of course, if we would've found one pre-trained on birds or even just animals, the features would have very likely been even more useful than those obtained from general images. Also as our time schedule was disturbed by the issue that we didn't get our rough code structure to work (see next paragraph) for so long, more parameter fine tuning would have probably helped to increase performance. 
 
 
